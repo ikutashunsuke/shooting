@@ -146,7 +146,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ANIMATION.cpp" />
+    <ClCompile Include="FPS.cpp" />
+    <ClCompile Include="IMAGE.cpp" />
+    <ClCompile Include="KEYDOWN.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ANIMATION.hpp" />
+    <ClInclude Include="FPS.hpp" />
+    <ClInclude Include="image.hpp" />
+    <ClInclude Include="KEYDOWN.hpp" />
+    <ClInclude Include="main.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
